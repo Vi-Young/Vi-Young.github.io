@@ -236,6 +236,21 @@
     </button>
   </div>
 </div>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
 
 <nav class="site-nav">
   
@@ -753,21 +768,11 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-hand-holding-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Vi-Young</span>
-
-  
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    
-      <span class="post-meta-item-text">Site words total count&#58;</span>
-    
-    <span title="Site words total count">94</span>
+        <div class="copyright"><span class="author" itemprop="copyrightHolder">Vi-Young</span>
+  <div class="theme-info">
+    <div class="powered-by"></div>
+    <span class="post-count">| &nbsp;博客全站共94字</span>
+  </div>
   
 
 
@@ -782,7 +787,7 @@
 
   
     <span class="site-uv">
-      <i class="fa fa-user-circle-o"></i>一共有
+      一共有
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
       个小可爱访问了我
     </span>
