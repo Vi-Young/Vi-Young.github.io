@@ -2112,7 +2112,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffe275;
+  background: #ffd58b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3412,10 +3412,10 @@ img:hover {
 }
 #days {
   display: block;
-  color: #97d2ca;
+  color: #1e4805;
   font-size: 13px;
   margin-top: 15px;
-  margin-left: 30px;
+  text-align: center;
 }
 .post {
   margin-top: 60px;
