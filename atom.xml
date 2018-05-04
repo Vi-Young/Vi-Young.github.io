@@ -42,4 +42,29 @@
     
   </entry>
   
+  <entry>
+    <title>《用户体验要素》读后笔记（二）</title>
+    <link href="http://vi-young.com/2018/05/04/%E3%80%8A%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%A6%81%E7%B4%A0%E3%80%8B%E8%AF%BB%E5%90%8E%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://vi-young.com/2018/05/04/《用户体验要素》读后笔记（二）/</id>
+    <published>2018-05-04T15:52:00.000Z</published>
+    <updated>2018-05-04T07:53:40.837Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="战略层"><a href="#战略层" class="headerlink" title="战略层"></a>战略层</h1><p>成功的用户体验，其基础是一个被明确表达的“战略”，知道企业与用户双方对产品的期许和目标，有助于促进用户体验各方面战略的确定和制定。</p><blockquote><p>明确两个问题：我们要通过这个产品得到什么？ 我们的客户要通过这个产品得到什么？<br>    ①     产品目标     ②     用户需求</p></blockquote><h2 id="产品目标："><a href="#产品目标：" class="headerlink" title="产品目标："></a>产品目标：</h2><p>   ①     商业目标（商业驱动因素）<br>    ②     品牌识别<br>    ③     成功标识</p><h2 id="用户需求："><a href="#用户需求：" class="headerlink" title="用户需求："></a>用户需求：</h2><p>   ①     用户细分</p><pre><code>1. 人口统计学2. 消费心理档案</code></pre><p>   ②     可用性和用户研究</p><pre><code>1. 市场调研方法2. 现场调研3. 任务分析4. 用户测试5. 卡片排序法6. 用户模型</code></pre><p>这是就需要一篇战略文档，而战略文档的关键在于<strong>简洁明了</strong>并<strong>切中要点</strong>，战略是设计用户体验设计流程中的起点。</p><hr><h1 id="范围层"><a href="#范围层" class="headerlink" title="范围层"></a>范围层</h1><p>带着“我们想要什么”、“我们的用户想要什么”的明确认识，我们才能弄清楚如何去满足这些战略的目标，当你把用户需求和产品目标转变成产品应该提供给用户什么样的内容和功能时，战略就变成了范围。</p><p>用文档定义产品需求的必要性：<br>    ① 这样你才知道你在建设什么<br>    ② 这样你才知道你不需要建设什么</p><blockquote><p>范围层被功能型产品和信息型产品分为了功能规格和内容需求，定义需求的详略层度往往取决于该项目的具体范围。</p></blockquote><h2 id="功能规格说明："><a href="#功能规格说明：" class="headerlink" title="功能规格说明："></a>功能规格说明：</h2><ol><li>文档不能解决问题，但定义可以，我们需要的不是文档有厚或有多详细，而是要足够清楚和准确。</li><li>乐观：描述这个系统将要做什么事情去“防止”不好的情况发生</li><li>具体：尽可能详细的解释清楚情况</li><li>在文档中要尽量避免主观的语气</li></ol><h2 id="内容需求："><a href="#内容需求：" class="headerlink" title="内容需求："></a>内容需求：</h2><ol><li>应该提供每一个特性规模的文档预估：文本的字数，图片的像素大小，下载的文件字节、PDF或音频文件等独立元素的大小等。</li><li>内容特性的更新频率来自于产品的战略目标，必须确定一个频率，它是介于你的用户期望值和有效值之间</li></ol><h2 id="确定需求优先级："><a href="#确定需求优先级：" class="headerlink" title="确定需求优先级："></a>确定需求优先级：</h2><ol><li>有些特性可能会因为技术上的局限无法实现，有些则是因为资源与时间上的不足</li><li>很少有功能时独立存在的</li><li>如果你的战略计划或愿景文档在战略目标的范围内制定了一个清晰的优先级别顺序，那么这些优先级别应该是决定是否采纳人们所建议的相关特性的首要因素</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;战略层&quot;&gt;&lt;a href=&quot;#战略层&quot; class=&quot;headerlink&quot; title=&quot;战略层&quot;&gt;&lt;/a&gt;战略层&lt;/h1&gt;&lt;p&gt;成功的用户体验，其基础是一个被明确表达的“战略”，知道企业与用户双方对产品的期许和目标，有助于促进用户体验各方面战略的确定和制定。&lt;
+      
+    
+    </summary>
+    
+      <category term="读书笔记" scheme="http://vi-young.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="UE" scheme="http://vi-young.com/tags/UE/"/>
+    
+  </entry>
+  
 </feed>
