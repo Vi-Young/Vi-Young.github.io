@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vi-young.com/"/>
-  <updated>2018-05-03T06:18:46.490Z</updated>
+  <updated>2018-05-04T07:40:17.868Z</updated>
   <id>http://vi-young.com/</id>
   
   <author>
@@ -17,55 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello, Hexo!</title>
-    <link href="http://vi-young.com/2018/05/02/Hello-Hexo/"/>
-    <id>http://vi-young.com/2018/05/02/Hello-Hexo/</id>
-    <published>2018-05-02T15:31:08.000Z</published>
-    <updated>2018-05-03T06:18:46.490Z</updated>
+    <title>《用户体验要素》 读后笔记（一）</title>
+    <link href="http://vi-young.com/2018/05/05/Untitled%E3%80%8A%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%A6%81%E7%B4%A0%E3%80%8B-%E8%AF%BB%E5%90%8E%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://vi-young.com/2018/05/05/Untitled《用户体验要素》-读后笔记（一）/</id>
+    <published>2018-05-05T07:38:00.000Z</published>
+    <updated>2018-05-04T07:40:17.868Z</updated>
     
-    <content type="html"><![CDATA[<p>使用Hexo,是非常简单的一件事,测试文本.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;使用Hexo,是非常简单的一件事,测试文本.&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="搭建博客" scheme="http://vi-young.com/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-      <category term="hexo" scheme="http://vi-young.com/tags/hexo/"/>
-    
-      <category term="github" scheme="http://vi-young.com/tags/github/"/>
-    
-      <category term="npm" scheme="http://vi-young.com/tags/npm/"/>
-    
-      <category term="基础" scheme="http://vi-young.com/tags/%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://vi-young.com/2018/05/02/hello-world/"/>
-    <id>http://vi-young.com/2018/05/02/hello-world/</id>
-    <published>2018-05-02T03:32:55.153Z</published>
-    <updated>2018-05-03T06:19:55.711Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>最近有幸拜读了Jesse James Garrett所著的用户体验要素这本书，感触颇多，感觉对于UE这门课程有了一个较为系统的认识，知道了用户体验为什么是如此的重要，以及用户体验的五个元素。</p><p>在产品开发过程中,人们更多的关注what to do, 设计师经常忽略的另一个因素是how to do, 而这一因素恰恰是决定产品成败的关键因素。</p><blockquote><p>“外形服从于功能”</p></blockquote><p>这种观点对于产品的内部运作(用户不可见的部分)是完全适用的, 但是, 对于产品直接面向用户的那些部分—按钮, 布局, 文字, 也包括外观, 正确的产品形态绝对不是由”功能”所决定的, 而是应该由”<strong>用户自身的心理感受和行为</strong>“来决定的</p><blockquote><p>提供优质的用户体验, 是一个重要的可持续的竞争优势 —— 不仅仅对网站是这样, 对所有类型的产品和服务都是如此</p></blockquote><p>创建吸引人的,高效的用户体验的方法称为”以用户为中心的设计”. 以用户为中心的设计思想非常简单,: 在开发产品的每一个步骤中, 都要把用户列入考虑范围，下面我们来认识一下这些要素。</p><h2 id="五个要素"><a href="#五个要素" class="headerlink" title="五个要素"></a>五个要素</h2><p>用户体验开发时的五个要素(5s)</p><pre><code>表现层(surface)    一系列的网页, 由图片和文字组成框架层(skeleton)    按钮, 控件, 照片和文本区域的位置, 优化设计布局, 以达到这些元素的最大效果和效率结构层(structure)    框架是结构的具体表达方式范围层(scope)    结构层确定网站各种特性和功能最合适的组合方式, 而这些特性和功能就构成了网站的范围层战略层(strategy)    网站的范围基本上是由网站战略层决定的</code></pre><h2 id="双重性"><a href="#双重性" class="headerlink" title="双重性"></a>双重性</h2><p>自下而上的建设，并且让每一个层面的工作在下一个层面可以结束之前完成，网站具有基本的双重性，描述功能型的平台类产品和描述信息的媒介类产品。</p><pre><code>功能性产品, 主要关注的任务, 所有的操作都被纳入一个过程,  去思考人们如何完成这个过程, 这里的网站实际上是用户用于完成任务的一种工具信息性产品, 主要的关注点是信息, 创建一个富信息的用户体验, 就是提供给用户一个可以寻找, 理解且有意义的组合</code></pre><h2 id="区别和联系"><a href="#区别和联系" class="headerlink" title="区别和联系"></a>区别和联系</h2><pre><code>1.战略层所关注的内容都是一样的, 来自企业外部的用户需求和来自自己对网站的期望目标。2.由范围层进入战略层, 在功能型产品一侧转化为功能规格: 对产品的&quot;功能组合&quot;的详细描述. 而在信息型产品一侧, 范围则是以内容需求的形式出现: 对各种内容元素的要求的详细描述。3.在功能性产品一侧, 结构层将从范围转化为交互设计, 在这里我们可以定义系统如何响应用户的请求,另一侧是信息架构: 合理的安排内容元素以促进人类理解信息4.在框架层, 必不可少的是信息设计, 功能性产品偏向于界面设计, 而信息类产品, 则偏向于导航设计.5.最后, 在表现层, 关注点都在于最终产品创建用户体验</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;p&gt;最近有幸拜读了Jesse James Garrett所著的用户体验要素这本书，感触颇多，感觉对于UE这门课程有了一个较为系统的认识，知道了用户体验为什么是如此的重要，以及用户体验的五个元素。&lt;/p&gt;
+&lt;p&gt;在产品开发过程中,人们更多的关注what to do, 设计师经常忽
       
     
     </summary>
     
+      <category term="读书笔记" scheme="http://vi-young.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="UE" scheme="http://vi-young.com/tags/UE/"/>
     
   </entry>
   
