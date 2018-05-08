@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://vi-young.com/tags/index.html</loc>
+    
+    <lastmod>2018-05-04T09:16:13.592Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vi-young.com/categories/index.html</loc>
+    
+    <lastmod>2018-05-04T09:14:08.449Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://vi-young.com/2018/05/04/%E3%80%8A%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%A6%81%E7%B4%A0%E3%80%8B%E8%AF%BB%E5%90%8E%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     
     <lastmod>2018-05-04T08:11:36.538Z</lastmod>
@@ -16,13 +30,6 @@
   </url>
   
   <url>
-    <loc>http://vi-young.com/categories/index.html</loc>
-    
-    <lastmod>2018-05-04T08:00:58.347Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://vi-young.com/2018/05/04/%E3%80%8A%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%A6%81%E7%B4%A0%E3%80%8B%E8%AF%BB%E5%90%8E%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
     
     <lastmod>2018-05-04T07:57:58.595Z</lastmod>
@@ -31,13 +38,6 @@
   
   <url>
     <loc>http://vi-young.com/about/index.html</loc>
-    
-    <lastmod>2018-05-04T07:50:59.456Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://vi-young.com/tags/index.html</loc>
     
     <lastmod>2018-05-04T07:50:59.456Z</lastmod>
     
