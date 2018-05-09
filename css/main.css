@@ -2112,7 +2112,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffcd;
+  background: #ffe7a3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3421,7 +3421,7 @@ img:hover {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 body {
-  background: url("/images/260976.jpg");
+  background: url("/images/321.jpg");
   background-attachment: fixed;
 }
 .page-reward-btn {
@@ -3438,7 +3438,7 @@ body {
 .site-meta {
   color: #fff;
   padding: 20px 0px;
-  background: #5a0909;
+  background: #48638a;
 }
 .post-spread {
   margin-top: 20px;
