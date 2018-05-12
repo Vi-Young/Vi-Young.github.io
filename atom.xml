@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vi-young.com/"/>
-  <updated>2018-05-09T06:38:56.326Z</updated>
+  <updated>2018-05-12T13:02:48.262Z</updated>
   <id>http://vi-young.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java基础回顾知识点（一）</title>
+    <link href="http://vi-young.com/2018/05/13/Java%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E7%9F%A5%E8%AF%86%E7%82%B9%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://vi-young.com/2018/05/13/Java基础回顾知识点（一）/</id>
+    <published>2018-05-12T20:54:00.000Z</published>
+    <updated>2018-05-12T13:02:48.262Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本系列主要讲Java基础知识，是对自己温故知新的总结，一个标题为一个内容，同时也欢迎各方大佬指出文中不对的地方前来交流探讨技术~</p><h2 id="Java”白皮书“的关键术语："><a href="#Java”白皮书“的关键术语：" class="headerlink" title="Java”白皮书“的关键术语："></a>Java”白皮书“的关键术语：</h2><ul><li>简单性  </li><li>面向对象 </li><li>分布式 </li><li>健壮性 </li><li>安全性 </li><li>体系结构中立 </li><li>可移植性 </li><li>解释型 </li><li>高性能 </li><li>多线程 </li><li>动态性</li></ul><h2 id="关于Java的常见误解"><a href="#关于Java的常见误解" class="headerlink" title="关于Java的常见误解"></a>关于Java的常见误解</h2><ul><li>Java是HTML的扩展 </li><li>使用XML，所以不需要Java </li><li>Java是一种非常容易学习的程序设计语言 </li><li>Java将成为适用于所有平台的通用性编程语言</li><li>Java只不过是另外一种程序设计语言 </li><li>Java是专用的，应该避免使用 </li><li>Java是解释型的，因此对于关键的应用程序速度太慢了 </li><li>所有的Java程序都是在网页中运行的 </li><li>JavaScript是Java的简易版 </li><li>使用Java可以用廉价的Internet设备取代桌面计算机   </li></ul><h2 id="基本程序设计结构"><a href="#基本程序设计结构" class="headerlink" title="基本程序设计结构"></a>基本程序设计结构</h2><ul><li><p>类作为一个加载程序逻辑的<strong>容器</strong>，程序逻辑定义了应用程序的行为。类是构建所有Java应用程序和applet的构建块。Java应用程序中的全部内容都必须放置在类中。</p></li><li><p>源代码的文件名必须与<strong>公共类</strong>的名字相同，这里需要注意的是公共类，而非所有类，比如内部类的名字就不必与源代码的文件名相同。</p></li><li><p>根据Java语言规范，main方法必须声明为<strong>public</strong>。</p></li><li><p>在Java中，所有的数值类型所占据的字节数量与平台无关。</p></li><li><p>可以使用十六进制表示浮点数值。例如，0.125 = 2的负三次方可以表示成 0x1.0p-3。在十六进制表示法中，使用p表示指数，而不是e。注意，尾数采用十六进制，指数采用十进制，指数的基数是2，而不是10。</p></li><li><p>用于表示溢出和出错情况的三个特殊的浮点数值：</p><ul><li>正无穷大</li><li>负无穷大</li><li>NaN（Not A Number）</li></ul></li><li><p>Unicode转移序列会在解析代码之前得到处理，更隐秘的，一定要多加注意注释中的\u注释</p></li><li><p>所有”非数值“的值都认为是不相同的。然而，可以使用Double.isNaN方法。</p></li><li><p>在基本的多语言级别中，每个字符用16位表示，通常被称为代码单元。</p></li><li><p>在Java中，char类型描述了UTF-16编码中的一个代码单元。</p></li><li><p>boolean类型有两个值：false和true，用于判定逻辑条件。整数值和布尔值之间不能进1行相互转换。</p></li><li><p>如果想知道哪些Unicode字符属于Java中的“字母”，可以使用Character类的isJavaIndentifierStart和isJavaIdentifierPart方法来检查。</p></li><li><p>声明一个变量后，必须用赋值语句对变量进行显式初始化。</p></li><li><p>在Java中，利用关键字final指示常量，表示这个常量只能被赋值一次，一旦被赋值之后，就不能被更改了。习惯上，常量名使用全大写。</p></li><li><p>在Java中，可以通过static final来定义类常量，这个类常量可以在一个类的多个方法中使用，注意，<strong>类常量需要定义在main方法外部</strong>。</p></li><li><p>使用strictfp关键字来标记main方法，则main方法中所有指令都将会进行严格的浮点计算用于生成可再生的结果。</p></li></ul><figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">strictfp</span> <span class="keyword">void</span> main(<span class="keyword">String</span>[] args)</span><br></pre></td></tr></table></figure><ul><li>计算一个数值的平方根，可以使用sqrt方法。</li></ul><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">double</span> x = <span class="number">4</span>;</span><br><span class="line"><span class="keyword">double</span> y = Math.<span class="built_in">sqrt</span>(x);</span><br><span class="line">System.out.<span class="built_in">println</span>(y); <span class="comment">//prints 2.0</span></span><br></pre></td></tr></table></figure><ul><li>借助于Math类的pow方法，可以将y的值设置为x的a次幂。</li></ul><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">double</span> y = Math.<span class="built_in">pow</span>(x,a)；</span><br></pre></td></tr></table></figure><ul><li><p>floorMod方法可以防止除数为负的时候，进行 % 运算时余数为负（但是不能避免被除数为负时，floorMod得到负数结果）</p></li><li><p>如果得到一个完全可预测的结果比运行速度更重要的话，应该使用StrictMath类。它使用fdlibm来实现算法，以确保在所有平台上得到相同的结果。（ps：我们平时使用都是Math类）</p></li><li><p>如果想对浮点数进行舍入运算，以便得到最接近的整数，那就需要使用Math.round方法。</p></li></ul><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">double</span> x1 = <span class="number">9.997</span>;</span><br><span class="line"><span class="built_in">int</span> nx1 = (<span class="built_in">int</span>)x1; <span class="comment">// x = 9</span></span><br><span class="line"></span><br><span class="line"><span class="comment"><span class="markdown">/**</span></span></span><br><span class="line"><span class="comment"><span class="markdown"><span class="bullet">* </span>这里需要进行类型转换是因为round函数返回的是一个Long类型的数值，为了防止精度丢失。</span></span></span><br><span class="line"><span class="comment"><span class="markdown">*/</span></span></span><br><span class="line"><span class="built_in">double</span> x2 = <span class="number">9.997</span>;</span><br><span class="line"><span class="built_in">int</span> nx2 = (<span class="built_in">int</span>)Math.round(x2) <span class="comment">// x = 10</span></span><br></pre></td></tr></table></figure><ul><li>如果试图将一个数值从一种类型强制转换成另一种类型，而又超出了目标类型的表示范围，结果就会被截断成一个完全不同的值。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;本系列主要讲Java基础知识，是对自己温故知新的总结，一个标题为一个内容，同时也欢迎各方大佬指出文中不对的地方前来交流探讨技
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="http://vi-young.com/categories/Java/"/>
+    
+    
+      <category term="Java基础" scheme="http://vi-young.com/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>《用户体验要素》读后笔记（三）</title>

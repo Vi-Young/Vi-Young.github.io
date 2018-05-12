@@ -119,7 +119,7 @@
 
 
 
-  <meta name="keywords" content="Java, 大前端, 全栈, Linux" />
+  <meta name="keywords" content="Java基础," />
 
 
 
@@ -132,16 +132,18 @@
 
 
 
-<meta name="description" content="我从没见过一个不孤独的人会发出耀眼的光芒">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vi-Young Space">
-<meta property="og:url" content="http://vi-young.com/categories/读书笔记/index.html">
+<meta name="description" content="写在前面本系列主要讲Java基础知识，是对自己温故知新的总结，一个标题为一个内容，同时也欢迎各方大佬指出文中不对的地方前来交流探讨技术~ Java”白皮书“的关键术语： 简单性   面向对象  分布式  健壮性  安全性  体系结构中立  可移植性  解释型  高性能  多线程  动态性  关于Java的常见误解 Java是HTML的扩展  使用XML，所以不需要Java  Java是一种非常容易">
+<meta name="keywords" content="Java基础">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java基础回顾知识点（一）">
+<meta property="og:url" content="http://vi-young.com/2018/05/13/Java基础回顾知识点（一）/index.html">
 <meta property="og:site_name" content="Vi-Young Space">
-<meta property="og:description" content="我从没见过一个不孤独的人会发出耀眼的光芒">
+<meta property="og:description" content="写在前面本系列主要讲Java基础知识，是对自己温故知新的总结，一个标题为一个内容，同时也欢迎各方大佬指出文中不对的地方前来交流探讨技术~ Java”白皮书“的关键术语： 简单性   面向对象  分布式  健壮性  安全性  体系结构中立  可移植性  解释型  高性能  多线程  动态性  关于Java的常见误解 Java是HTML的扩展  使用XML，所以不需要Java  Java是一种非常容易">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-05-12T13:02:48.262Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vi-Young Space">
-<meta name="twitter:description" content="我从没见过一个不孤独的人会发出耀眼的光芒">
+<meta name="twitter:title" content="Java基础回顾知识点（一）">
+<meta name="twitter:description" content="写在前面本系列主要讲Java基础知识，是对自己温故知新的总结，一个标题为一个内容，同时也欢迎各方大佬指出文中不对的地方前来交流探讨技术~ Java”白皮书“的关键术语： 简单性   面向对象  分布式  健壮性  安全性  体系结构中立  可移植性  解释型  高性能  多线程  动态性  关于Java的常见误解 Java是HTML的扩展  使用XML，所以不需要Java  Java是一种非常容易">
 
 
 
@@ -171,13 +173,13 @@
 
 
 
-  <link rel="canonical" href="http://vi-young.com/categories/读书笔记/"/>
+  <link rel="canonical" href="http://vi-young.com/2018/05/13/Java基础回顾知识点（一）/"/>
 
 
 
 
 
-  <title>分类: 读书笔记 | Vi-Young Space</title>
+  <title>Java基础回顾知识点（一） | Vi-Young Space</title>
   
 
 
@@ -196,7 +198,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 <a href="https://github.com/Vi-Young" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -359,111 +361,382 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h2>读书笔记<small>分类</small>
-        </h2>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://vi-young.com/2018/05/13/Java基础回顾知识点（一）/">
 
-      <h3 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Vi-Young">
+      <meta itemprop="description" content="我从没见过一个不孤独的人会发出耀眼的光芒">
+      <meta itemprop="image" content="/images/blog-logo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Vi-Young Space">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/05/05/《用户体验要素》读后笔记（三）/" itemprop="url">
-              
-                <span itemprop="name">《用户体验要素》读后笔记（三）</span>
-              
-            </a>
         
-      </h3>
+          <h2 class="post-title" itemprop="name headline">Java基础回顾知识点（一）</h2>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-04T16:10:00Z"
-              content="2018-05-04" >
-          05-04
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-13T04:54:00+08:00">
+                2018-05-12
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/13/Java基础回顾知识点（一）/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/13/Java基础回顾知识点（一）/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/05/13/Java基础回顾知识点（一）/" class="leancloud_visitors" data-flag-title="Java基础回顾知识点（一）">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+                 <span>℃</span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1,198
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  4
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/05/04/《用户体验要素》读后笔记（二）/" itemprop="url">
-              
-                <span itemprop="name">《用户体验要素》读后笔记（二）</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-04T15:52:00Z"
-              content="2018-05-04" >
-          05-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/05/04/《用户体验要素》读后笔记（一）/" itemprop="url">
-              
-                <span itemprop="name">《用户体验要素》 读后笔记（一）</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-04T15:38:00Z"
-              content="2018-05-04" >
-          05-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本系列主要讲Java基础知识，是对自己温故知新的总结，一个标题为一个内容，同时也欢迎各方大佬指出文中不对的地方前来交流探讨技术~</p>
+<h2 id="Java”白皮书“的关键术语："><a href="#Java”白皮书“的关键术语：" class="headerlink" title="Java”白皮书“的关键术语："></a>Java”白皮书“的关键术语：</h2><ul>
+<li>简单性  </li>
+<li>面向对象 </li>
+<li>分布式 </li>
+<li>健壮性 </li>
+<li>安全性 </li>
+<li>体系结构中立 </li>
+<li>可移植性 </li>
+<li>解释型 </li>
+<li>高性能 </li>
+<li>多线程 </li>
+<li>动态性</li>
+</ul>
+<h2 id="关于Java的常见误解"><a href="#关于Java的常见误解" class="headerlink" title="关于Java的常见误解"></a>关于Java的常见误解</h2><ul>
+<li>Java是HTML的扩展 </li>
+<li>使用XML，所以不需要Java </li>
+<li>Java是一种非常容易学习的程序设计语言 </li>
+<li>Java将成为适用于所有平台的通用性编程语言</li>
+<li>Java只不过是另外一种程序设计语言 </li>
+<li>Java是专用的，应该避免使用 </li>
+<li>Java是解释型的，因此对于关键的应用程序速度太慢了 </li>
+<li>所有的Java程序都是在网页中运行的 </li>
+<li>JavaScript是Java的简易版 </li>
+<li>使用Java可以用廉价的Internet设备取代桌面计算机   </li>
+</ul>
+<h2 id="基本程序设计结构"><a href="#基本程序设计结构" class="headerlink" title="基本程序设计结构"></a>基本程序设计结构</h2><ul>
+<li><p>类作为一个加载程序逻辑的<strong>容器</strong>，程序逻辑定义了应用程序的行为。类是构建所有Java应用程序和applet的构建块。Java应用程序中的全部内容都必须放置在类中。</p>
+</li>
+<li><p>源代码的文件名必须与<strong>公共类</strong>的名字相同，这里需要注意的是公共类，而非所有类，比如内部类的名字就不必与源代码的文件名相同。</p>
+</li>
+<li><p>根据Java语言规范，main方法必须声明为<strong>public</strong>。</p>
+</li>
+<li><p>在Java中，所有的数值类型所占据的字节数量与平台无关。</p>
+</li>
+<li><p>可以使用十六进制表示浮点数值。例如，0.125 = 2的负三次方可以表示成 0x1.0p-3。在十六进制表示法中，使用p表示指数，而不是e。注意，尾数采用十六进制，指数采用十进制，指数的基数是2，而不是10。</p>
+</li>
+<li><p>用于表示溢出和出错情况的三个特殊的浮点数值：</p>
+<ul>
+<li>正无穷大</li>
+<li>负无穷大</li>
+<li>NaN（Not A Number）</li>
+</ul>
+</li>
+<li><p>Unicode转移序列会在解析代码之前得到处理，更隐秘的，一定要多加注意注释中的\u注释</p>
+</li>
+<li><p>所有”非数值“的值都认为是不相同的。然而，可以使用Double.isNaN方法。</p>
+</li>
+<li><p>在基本的多语言级别中，每个字符用16位表示，通常被称为代码单元。</p>
+</li>
+<li><p>在Java中，char类型描述了UTF-16编码中的一个代码单元。</p>
+</li>
+<li><p>boolean类型有两个值：false和true，用于判定逻辑条件。整数值和布尔值之间不能进1行相互转换。</p>
+</li>
+<li><p>如果想知道哪些Unicode字符属于Java中的“字母”，可以使用Character类的isJavaIndentifierStart和isJavaIdentifierPart方法来检查。</p>
+</li>
+<li><p>声明一个变量后，必须用赋值语句对变量进行显式初始化。</p>
+</li>
+<li><p>在Java中，利用关键字final指示常量，表示这个常量只能被赋值一次，一旦被赋值之后，就不能被更改了。习惯上，常量名使用全大写。</p>
+</li>
+<li><p>在Java中，可以通过static final来定义类常量，这个类常量可以在一个类的多个方法中使用，注意，<strong>类常量需要定义在main方法外部</strong>。</p>
+</li>
+<li><p>使用strictfp关键字来标记main方法，则main方法中所有指令都将会进行严格的浮点计算用于生成可再生的结果。</p>
+</li>
+</ul>
+<figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">strictfp</span> <span class="keyword">void</span> main(<span class="keyword">String</span>[] args)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>计算一个数值的平方根，可以使用sqrt方法。</li>
+</ul>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">double</span> x = <span class="number">4</span>;</span><br><span class="line"><span class="keyword">double</span> y = Math.<span class="built_in">sqrt</span>(x);</span><br><span class="line">System.out.<span class="built_in">println</span>(y); <span class="comment">//prints 2.0</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>借助于Math类的pow方法，可以将y的值设置为x的a次幂。</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">double</span> y = Math.<span class="built_in">pow</span>(x,a)；</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>floorMod方法可以防止除数为负的时候，进行 % 运算时余数为负（但是不能避免被除数为负时，floorMod得到负数结果）</p>
+</li>
+<li><p>如果得到一个完全可预测的结果比运行速度更重要的话，应该使用StrictMath类。它使用fdlibm来实现算法，以确保在所有平台上得到相同的结果。（ps：我们平时使用都是Math类）</p>
+</li>
+<li><p>如果想对浮点数进行舍入运算，以便得到最接近的整数，那就需要使用Math.round方法。</p>
+</li>
+</ul>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">double</span> x1 = <span class="number">9.997</span>;</span><br><span class="line"><span class="built_in">int</span> nx1 = (<span class="built_in">int</span>)x1; <span class="comment">// x = 9</span></span><br><span class="line"></span><br><span class="line"><span class="comment"><span class="markdown">/**</span></span></span><br><span class="line"><span class="comment"><span class="markdown"><span class="bullet">* </span>这里需要进行类型转换是因为round函数返回的是一个Long类型的数值，为了防止精度丢失。</span></span></span><br><span class="line"><span class="comment"><span class="markdown">*/</span></span></span><br><span class="line"><span class="built_in">double</span> x2 = <span class="number">9.997</span>;</span><br><span class="line"><span class="built_in">int</span> nx2 = (<span class="built_in">int</span>)Math.round(x2) <span class="comment">// x = 10</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>如果试图将一个数值从一种类型强制转换成另一种类型，而又超出了目标类型的表示范围，结果就会被截断成一个完全不同的值。</li>
+</ul>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" class="btn btn-primary" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block;width:50%;height:50%;">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Vi-Young 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block;width:50%;height:50%;">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Vi-Young 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Vi-Young
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://vi-young.com/2018/05/13/Java基础回顾知识点（一）/" title="Java基础回顾知识点（一）">http://vi-young.com/2018/05/13/Java基础回顾知识点（一）/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束 <i class="fa fa-star"></i> 感谢您的阅读-------------</div>
+    
+</div>
+    
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java基础/" rel="tag"><i class="fa fa-tag"></i> Java基础</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/05/05/《用户体验要素》读后笔记（三）/" rel="next" title="《用户体验要素》读后笔记（三）">
+                <i class="fa fa-chevron-left"></i> 《用户体验要素》读后笔记（三）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+        <!--MOB SHARE BEGIN-->
+<div class="-mob-share-ui-button -mob-share-open" style="background: #824e4e;">
+<i class="fa fa-share-alt"></i>
+分享
+</div>
+<div class="-mob-share-ui" style="display: none">
+    <ul class="-mob-share-list">
+        <li class="-mob-share-weixin"><p>微信</p></li>
+        <li class="-mob-share-weibo"><p>新浪微博</p></li>
+        <li class="-mob-share-qq"><p>QQ好友</p></li>
+        <li class="-mob-share-renren"><p>人人网</p></li>
+        <li class="-mob-share-douban"><p>豆瓣</p></li>
+        <li class="-mob-share-facebook"><p>Facebook</p></li>
+        <li class="-mob-share-twitter"><p>Twitter</p></li>
+    </ul>
+    <div class="-mob-share-close">取消</div>
+</div>
+<div class="-mob-share-ui-bg"></div>
+
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=25a892765b99c"></script>
+<!--MOB SHARE END-->
+      
+    </div>
+  </div>
 
 
           </div>
@@ -471,6 +744,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
         </div>
         
@@ -491,8 +771,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -649,6 +938,22 @@ show_date_time();
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#写在前面"><span class="nav-number">1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Java”白皮书“的关键术语："><span class="nav-number">2.</span> <span class="nav-text">Java”白皮书“的关键术语：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于Java的常见误解"><span class="nav-number">3.</span> <span class="nav-text">关于Java的常见误解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基本程序设计结构"><span class="nav-number">4.</span> <span class="nav-text">基本程序设计结构</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
       
         <div class="back-to-top">
           <i class="fa fa-arrow-up"></i>
@@ -798,6 +1103,10 @@ show_date_time();
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
