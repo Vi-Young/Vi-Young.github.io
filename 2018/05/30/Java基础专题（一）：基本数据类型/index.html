@@ -140,7 +140,7 @@
 <meta property="og:site_name" content="Vi-Young Space">
 <meta property="og:description" content="前言今天我们来聊一下Java这门语言的数据类型，众所周知，Java是一种强类型语言。在Java中，一共有8种基本类型，其中4种整形，2种浮点类型，1种用于表示Unicode编码的字符单元的字符类型char和1种用于表示真值的boolean类型。 整型整形用于表示没有小数部分的数值，允许为负。    类型 存储大小 取值范围     int 4字节 -2,147,483,648 ~ 2,147,48">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-29T16:09:40.117Z">
+<meta property="og:updated_time" content="2018-05-29T16:16:08.745Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java基础专题（一）：基本数据类型">
 <meta name="twitter:description" content="前言今天我们来聊一下Java这门语言的数据类型，众所周知，Java是一种强类型语言。在Java中，一共有8种基本类型，其中4种整形，2种浮点类型，1种用于表示Unicode编码的字符单元的字符类型char和1种用于表示真值的boolean类型。 整型整形用于表示没有小数部分的数值，允许为负。    类型 存储大小 取值范围     int 4字节 -2,147,483,648 ~ 2,147,48">
@@ -585,7 +585,7 @@
 2. 负无穷大（Double.NEGATIVE_INFINITY）
 3. NAN（Double.NaN）
 </code></pre><h4 id="char类型"><a href="#char类型" class="headerlink" title="char类型"></a>char类型</h4><p>一个或两个char类型的数值可以用来表示一个Unicode字符，在代码中，char类型的字面量值需要用单引号括起来，char类型的值可以表示为以 \u 开头的16进制数值，用于表示一些标点和特殊符号所用。</p>
-<p>一些较为特殊的字符的转移序列如下：<br>| 转义序列 | 名称 | Unicode值 |<br>| ——- |:——-:| —-:|<br>| \b| 退格 | \u0008 |<br>| \t| 制表 | \u0009 |<br>| \n| 换行 | \u000a |<br>| \r| 回车 | \u000d |<br>| \”| 双引号 | \u0022 |<br>| \’ | 单引号 | \u0027 |<br>| \ | 反斜杠 | \u005c |</p>
+<p>一些较为特殊的字符的转移序列如下：<br>| 转义序列 | 名称 | Unicode值 |<br>| ——- |:——-:| :—-:|<br>| \b| 退格 | \u0008 |<br>| \t| 制表 | \u0009 |<br>| \n| 换行 | \u000a |<br>| \r| 回车 | \u000d |<br>| \“| 双引号 | \u0022 |<br>| \‘ | 单引号 | \u0027 |<br>| \\ | 反斜杠 | \u005c |</p>
 <font color="red"><strong>Unicode转义序列会在解析代码之前得到处理（大坑慎入！）</strong></font>
 
 <figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// download uri d:<span class="symbol">\u</span>ser<span class="symbol">\a</span>，这里会报语法错误，因为 <span class="symbol">\u</span> 后面没有跟着4个十六进制数。</span><br></pre></td></tr></table></figure>
