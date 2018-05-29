@@ -140,7 +140,7 @@
 <meta property="og:site_name" content="Vi-Young Space">
 <meta property="og:description" content="前言今天我们来聊一下Java这门语言的数据类型，众所周知，Java是一种强类型语言。在Java中，一共有8种基本类型，其中4种整形，2种浮点类型，1种用于表示Unicode编码的字符单元的字符类型char和1种用于表示真值的boolean类型。 整型整形用于表示没有小数部分的数值，允许为负。    类型 存储大小 取值范围     int 4字节 -2,147,483,648 ~ 2,147,48">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-29T15:59:01.623Z">
+<meta property="og:updated_time" content="2018-05-29T16:09:40.117Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java基础专题（一）：基本数据类型">
 <meta name="twitter:description" content="前言今天我们来聊一下Java这门语言的数据类型，众所周知，Java是一种强类型语言。在Java中，一共有8种基本类型，其中4种整形，2种浮点类型，1种用于表示Unicode编码的字符单元的字符类型char和1种用于表示真值的boolean类型。 整型整形用于表示没有小数部分的数值，允许为负。    类型 存储大小 取值范围     int 4字节 -2,147,483,648 ~ 2,147,48">
@@ -522,31 +522,31 @@
 <table>
 <thead>
 <tr>
-<th>类型</th>
+<th style="text-align:center">类型</th>
 <th style="text-align:center">存储大小</th>
-<th style="text-align:right">取值范围</th>
+<th style="text-align:center">取值范围</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>int</td>
+<td style="text-align:center">int</td>
 <td style="text-align:center">4字节</td>
-<td style="text-align:right">-2,147,483,648 ~ 2,147,483,647</td>
+<td style="text-align:center">-2,147,483,648 ~ 2,147,483,647</td>
 </tr>
 <tr>
-<td>short</td>
+<td style="text-align:center">short</td>
 <td style="text-align:center">2字节</td>
-<td style="text-align:right">-32,768 ~ 32,767</td>
+<td style="text-align:center">-32,768 ~ 32,767</td>
 </tr>
 <tr>
-<td>long</td>
+<td style="text-align:center">long</td>
 <td style="text-align:center">8字节</td>
-<td style="text-align:right">-9,223,372,036,854,775,808 ~ 9223,372,036,854,775,807</td>
+<td style="text-align:center">-9,223,372,036,854,775,808 ~ 9223,372,036,854,775,807</td>
 </tr>
 <tr>
-<td>byte</td>
+<td style="text-align:center">byte</td>
 <td style="text-align:center">1字节</td>
-<td style="text-align:right">-128 ~ 127</td>
+<td style="text-align:center">-128 ~ 127</td>
 </tr>
 </tbody>
 </table>
@@ -555,26 +555,25 @@
 <p>十六进制数值前缀为 0x 或 0X，这里需要说一点，八进制的前缀是0，比如010，这样的写法比较容易让人混淆，所以我们一般不要使用八进制来表示数据。</p>
 <p>二进制数值的前缀为 0b 或 0B，例如0b1001所代表的十进制数据就是9。</p>
 <p>从Java7开始，可以在数字字面量加下划线，比如1_000_000，这些下划线的作用仅仅是使代码的易读性更高，编译器在编译的时候会去除这些下划线。</p>
-<p>##浮点类型</p>
-<p>浮点类型用于表示有小数部分的数值，在Java中有两种浮点类型。</p>
+<h4 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h4><p>浮点类型用于表示有小数部分的数值，在Java中有两种浮点类型。</p>
 <table>
 <thead>
 <tr>
-<th>类型</th>
+<th style="text-align:left">类型</th>
 <th style="text-align:center">存储大小</th>
-<th style="text-align:right">取值范围</th>
+<th style="text-align:center">取值范围</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>float</td>
+<td style="text-align:left">float</td>
 <td style="text-align:center">4字节</td>
-<td style="text-align:right">大约 ± 3.402,823,47E+38F(有效位为6-7位)</td>
+<td style="text-align:center">大约 ± 3.402,823,47E+38F(有效位为6-7位)</td>
 </tr>
 <tr>
-<td>double</td>
+<td style="text-align:left">double</td>
 <td style="text-align:center">8字节</td>
-<td style="text-align:right">大约 ± 1.79769313486231570E+308（有效位15位）</td>
+<td style="text-align:center">大约 ± 1.79769313486231570E+308（有效位15位）</td>
 </tr>
 </tbody>
 </table>
@@ -585,13 +584,12 @@
 <pre><code>1. 正无穷大（Double.POSITIVE_INFINITY）
 2. 负无穷大（Double.NEGATIVE_INFINITY）
 3. NAN（Double.NaN）
-</code></pre><p>##char类型</p>
-<p>一个或两个char类型的数值可以用来表示一个Unicode字符，在代码中，char类型的字面量值需要用单引号括起来，char类型的值可以表示为以 \u 开头的16进制数值，用于表示一些标点和特殊符号所用。</p>
+</code></pre><h4 id="char类型"><a href="#char类型" class="headerlink" title="char类型"></a>char类型</h4><p>一个或两个char类型的数值可以用来表示一个Unicode字符，在代码中，char类型的字面量值需要用单引号括起来，char类型的值可以表示为以 \u 开头的16进制数值，用于表示一些标点和特殊符号所用。</p>
 <p>一些较为特殊的字符的转移序列如下：<br>| 转义序列 | 名称 | Unicode值 |<br>| ——- |:——-:| —-:|<br>| \b| 退格 | \u0008 |<br>| \t| 制表 | \u0009 |<br>| \n| 换行 | \u000a |<br>| \r| 回车 | \u000d |<br>| \”| 双引号 | \u0022 |<br>| \’ | 单引号 | \u0027 |<br>| \ | 反斜杠 | \u005c |</p>
 <font color="red"><strong>Unicode转义序列会在解析代码之前得到处理（大坑慎入！）</strong></font>
 
 <figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// download uri d:<span class="symbol">\u</span>ser<span class="symbol">\a</span>，这里会报语法错误，因为 <span class="symbol">\u</span> 后面没有跟着4个十六进制数。</span><br></pre></td></tr></table></figure>
-<p>##布尔类型<br>布尔类型有两个值：false和true，用来判定逻辑条件，整型值和布尔值之间不能互相转换，这一点与C或C++不同，需要留意一下。</p>
+<h4 id="布尔类型"><a href="#布尔类型" class="headerlink" title="布尔类型"></a>布尔类型</h4><p>布尔类型有两个值：false和true，用来判定逻辑条件，整型值和布尔值之间不能互相转换，这一点与C或C++不同，需要留意一下。</p>
 <hr>
 <h4 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h4><ol>
 <li>《Core Java Volume Ⅰ-Fundamentals》 – Cay S.Horstmann</li>
@@ -942,7 +940,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#整型"><span class="nav-number">2.</span> <span class="nav-text">整型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考文献"><span class="nav-number">3.</span> <span class="nav-text">参考文献</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#下集预告"><span class="nav-number">4.</span> <span class="nav-text">下集预告</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#整型"><span class="nav-number">2.</span> <span class="nav-text">整型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#浮点类型"><span class="nav-number">3.</span> <span class="nav-text">浮点类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#char类型"><span class="nav-number">4.</span> <span class="nav-text">char类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#布尔类型"><span class="nav-number">5.</span> <span class="nav-text">布尔类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考文献"><span class="nav-number">6.</span> <span class="nav-text">参考文献</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#下集预告"><span class="nav-number">7.</span> <span class="nav-text">下集预告</span></a></li></ol></div>
             
 
           </div>
